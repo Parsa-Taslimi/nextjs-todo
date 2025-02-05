@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Regular Weight */
+@font-face {
+	font-family: 'PlaypenSans';
+	src: url('../../public/fonts/playPenSans/PlaypenSans-Regular.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+} 
+/* Regular Weight */
+@font-face {
+	font-family: 'PlaypenSans';
+	src: url('../../public/fonts/playPenSans/PlaypenSans-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+/* Bold Weight */ 
+@font-face {
+	font-family: 'PlaypenSans';
+	src: url('../../public/fonts/playPenSans/PlaypenSans-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nosifer';
+	src: url('../../public/fonts/nosifer/Nosifer-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RubikWetPaint';
+	src: url('../../public/fonts/rubik-wet-paint/RubikWetPaint-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'IndieFlower';
+	src: url('../../public/fonts/indie-flower/IndieFlower-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ---------- Fonts End ---------- */
+
+@theme {
+	--breakpoint-xs: 20rem;
+}
+
+
+
+

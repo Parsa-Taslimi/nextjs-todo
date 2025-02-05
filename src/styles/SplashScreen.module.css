@@ -1,0 +1,19 @@
+.splashBg {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(67.6deg, rgb(225, 242, 254) -2.8%, rgb(193, 224, 250) 44.6%, rgb(19, 116, 197) 102.4%);
+}
+
+.startBtn{
+	transition: all 0.2s ease-in-out;
+}
+.startBtn:hover {
+	box-shadow: rgba(254, 253, 253, 0.25) 0 8px 15px;
+	transform: translateY(-2px);
+}
+.startBtn:active {
+	color: #3e4249;
+}

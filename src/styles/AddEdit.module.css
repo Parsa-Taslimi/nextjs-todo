@@ -1,0 +1,49 @@
+
+
+.closeIcon{
+	transition: all 0.2s ease-in;
+}
+.closeIcon:hover{
+	transform: translateY(1px);
+}
+.inputContainer form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	width: 100%;
+}
+.inputContainer label{
+	font-family: "PlaypenSans", serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-size: large;
+	padding: 0 0 3px 3px;
+}
+.inputContainer input{
+	width: 100%;
+	height: 50px;
+	padding: 1rem;
+	border-bottom: 3px solid rgb(79, 176, 255);
+	font-family: "PlaypenSans", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	transition: all 0.08s ease-in;
+}
+.inputContainer input:focus{
+	outline: none;
+	border: 2px solid rgb(79, 176, 255);
+	border-radius: 0.7rem;
+}
+.BtnWrapper button{
+	color: #ffff;
+	width: 7rem;
+	padding: 0.4rem 0;
+	border-radius: 1.5rem;
+	transition: all 0.2s ease-in-out;
+}
+.BtnWrapper button:hover{
+	box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.2);
+	transform: translate(1px, 1px);
+}
