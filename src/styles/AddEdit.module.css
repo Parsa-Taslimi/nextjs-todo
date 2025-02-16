@@ -11,6 +11,10 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: start;
+	gap: 1.5rem;
+	width: 100%;
+}
+.inputContainer form div {
 	width: 100%;
 }
 .inputContainer label{
@@ -36,6 +40,21 @@
 	border: 2px solid rgb(79, 176, 255);
 	border-radius: 0.7rem;
 }
+
+
+.inputContainer input[type="date"]{
+	padding: 15px;
+	font-size: 18px;
+	outline: none;
+
+}
+
+.inputContainer input[type="date"]::-webkit-calendar-picker-indicator {
+	cursor: pointer;
+	color: rgb(79, 176, 255);
+	filter: invert(0.1);
+}
+
 .BtnWrapper button{
 	color: #ffff;
 	width: 7rem;

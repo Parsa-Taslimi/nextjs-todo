@@ -1,6 +1,5 @@
 import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import "../styles/globals.css"; // Import your global CSS
-
 const theme = createTheme(); // You can customize this theme
 
 function MyApp({ Component, pageProps }) {
