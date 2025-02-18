@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 export async function PATCH(req, { params }) {
 	try {
 		await dbConnect();
-		const { id } = params;
+		const { id } = await params;
 		const { isComplete } = await req.json();
 		const isValid = mongoose.Types.ObjectId.isValid(id);
 		if (!isValid) {

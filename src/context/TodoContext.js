@@ -7,6 +7,8 @@ export const todoContext = createContext();
 //Create a provider component
 const TodoProvider = ({ children, initialTodos = [] }) => {
 	const [todos, setTodos] = useState(initialTodos);
+	const [isShowing, setIsShowing] = useState(false);
+	const [showedTodo, setShowedTodo] = useState(null);
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState(null);
 
@@ -120,8 +122,10 @@ const TodoProvider = ({ children, initialTodos = [] }) => {
 		);
    }
 
+	
+
 	return (
-		<todoContext.Provider value={{ todos, addTodo, editTodo, deleteTodo, doneTodo, loading, error }}>
+		<todoContext.Provider value={{ todos ,isShowing, setIsShowing, showedTodo, setShowedTodo, addTodo, editTodo, deleteTodo, doneTodo, loading, error }}>
 			{children}
 		</todoContext.Provider>
 	);
