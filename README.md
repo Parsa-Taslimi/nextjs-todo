@@ -54,8 +54,12 @@ Follow these steps to set up the project locally:
 
 ## Screenshots  
 
-![Task List Screenshot](screenshot1.png) <!-- Replace with your actual screenshot image paths -->  
-![Add Task Screenshot](screenshot2.png)  
+<img src="/public/images/screenshots/todo-app-start.png" alt="todo-app-start-screenshot" width="300" />
+<img src="/public/images/screenshots/todo-app-noTodo.png" alt="todo-app-noTodo-screenshot" width="300" />
+<img src="/public/images/screenshots/todo-app-todolist.png" alt="todo-app-todolist-screenshot" width="300" />
+<img src="/public/images/screenshots/todo-app-showTodo.png" alt="todo-app-showTodo-screenshot" width="300" />
+<img src="/public/images/screenshots/todo-app-addTodo.png" alt="todo-app-addTodo-screenshot" width="300" />
+<img src="/public/images/screenshots/todo-app-editTodo.png" alt="todo-app-editTodo-screenshot" width="300" />
 
 ## Contributing  
 
