@@ -4,43 +4,43 @@
 
 /* Regular Weight */
 @font-face {
-	font-family: 'PlaypenSans';
-	src: url('../../public/fonts/playPenSans/PlaypenSans-Regular.ttf') format('truetype');
+	font-family: "PlaypenSans";
+	src: url("../../public/fonts/playPenSans/PlaypenSans-Regular.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
-} 
+}
 /* Regular Weight */
 @font-face {
-	font-family: 'PlaypenSans';
-	src: url('../../public/fonts/playPenSans/PlaypenSans-SemiBold.ttf') format('truetype');
+	font-family: "PlaypenSans";
+	src: url("../../public/fonts/playPenSans/PlaypenSans-SemiBold.ttf") format("truetype");
 	font-weight: 600;
 	font-style: normal;
 }
-/* Bold Weight */ 
+/* Bold Weight */
 @font-face {
-	font-family: 'PlaypenSans';
-	src: url('../../public/fonts/playPenSans/PlaypenSans-Bold.ttf') format('truetype');
+	font-family: "PlaypenSans";
+	src: url("../../public/fonts/playPenSans/PlaypenSans-Bold.ttf") format("truetype");
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Nosifer';
-	src: url('../../public/fonts/nosifer/Nosifer-Regular.ttf') format('truetype');
+	font-family: "Nosifer";
+	src: url("../../public/fonts/nosifer/Nosifer-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'RubikWetPaint';
-	src: url('../../public/fonts/rubik-wet-paint/RubikWetPaint-Regular.ttf') format('truetype');
+	font-family: "RubikWetPaint";
+	src: url("../../public/fonts/rubik-wet-paint/RubikWetPaint-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'IndieFlower';
-	src: url('../../public/fonts/indie-flower/IndieFlower-Regular.ttf') format('truetype');
+	font-family: "IndieFlower";
+	src: url("../../public/fonts/indie-flower/IndieFlower-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -51,6 +51,31 @@
 	--breakpoint-xs: 20rem;
 }
 
+/* For the "inset" look only */
+html {
+	overflow: auto;
+}
+body {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
 
+/* Let's get this party started */
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #757575;
+}

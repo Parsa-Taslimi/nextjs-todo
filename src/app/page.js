@@ -6,7 +6,7 @@ import styles from "../styles/SplashScreen.module.css";
 export default function Start() {
 	return (
 		<div className={`${styles.splashBg}`}>
-			<div className={`bg-zinc-800 rounded-2xl text-neutral-50 w-4/6 h-5/6 flex flex-col justify-around items-center px-9 py-8 text-wrap text-center`}>
+			<div className={`bg-zinc-800 rounded-2xl text-neutral-50 w-4/6 h-5/6 flex flex-col justify-around items-center px-9  text-wrap text-center`}>
 				<Image
 					className="w-20 h-20 md:h-24 md:w-24 rounded-3xl fill-white"
 					src={mainLogo}
@@ -22,6 +22,7 @@ export default function Start() {
 						Start
 					</button>
 				</Link>
+				<p className="font-PlaypenSans tracking-wide">Made with ❤️ by Parsa Taslimi</p>
 			</div>
 		</div>
 	);
