@@ -2,6 +2,7 @@
 import { useTodos } from "@/context/TodoContext";
 import styles from "../styles/Todos.module.css";
 import CancelPresentationIcon from "@mui/icons-material/CancelPresentation";
+import TaskIcon from '@mui/icons-material/Task';
 import { useEffect } from "react";
 
 function ShowModal() {
@@ -55,8 +56,12 @@ function ShowModal() {
 								</button>
 							</div>
 							<div className="text-gray-800 px-2 mb-3">
-								<h2 className="text-lg font-semibold">Title:</h2>
-								<p className="text-gray-700">{showedTodo.title}</p>
+								<h2 className={`text-lg font-semibold`}>Title:</h2>
+								<p className={`${showedTodo.isComplete ? styles.complete : ""} text-gray-700`}>{showedTodo.title}
+									{
+										showedTodo.isComplete && (<TaskIcon className="text-green-700 ml-3" fontSize="medium" />) 
+									}
+								</p>
 							</div>
                      <div className="text-gray-800 px-2">
 								<h2 className="text-lg font-semibold">Description:</h2>
