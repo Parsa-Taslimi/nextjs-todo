@@ -1,6 +1,6 @@
 # To-Do App  
 
-![To-Do App Logo](logo.png)  
+![To-Do App Logo](/public/svg/reshot-icon-to-do-list-and-calendar.svg)  
 
 ## Table of Contents  
 
