@@ -1,14 +1,12 @@
 # To-Do App  
 
-<img src="/public/svg/reshot-icon-to-do-list-and-calendar.svg" alt="To-Do App Logo" width="200" height="200" /> 
+<img src="/public/svg/reshot-icon-to-do-list-and-calendar.svg" alt="To-Do App Logo" width="200" height="200" border-radius="5px" /> 
 
 ## Table of Contents  
 
 - [Overview](#overview)  
 - [Features](#features)  
-- [Technologies Used](#technologies-used)  
 - [Installation](#installation)  
-- [Usage](#usage)  
 - [Screenshots](#screenshots)  
 - [Contributing](#contributing)  
 - [License](#license)  
