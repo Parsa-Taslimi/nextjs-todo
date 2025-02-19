@@ -22,7 +22,8 @@ export default function Start() {
 						Start
 					</button>
 				</Link>
-				<p className="font-PlaypenSans tracking-wide">Made with ❤️ by Parsa Taslimi</p>
+				<p className="font-PlaypenSans text-sm tracking-wide">Made with ❤️ 
+					<br />by Parsa Taslimi</p>
 			</div>
 		</div>
 	);
