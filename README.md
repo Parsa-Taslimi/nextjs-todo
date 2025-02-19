@@ -1,6 +1,6 @@
 # To-Do App  
 
-<img src="/public/svg/reshot-icon-to-do-list-and-calendar.svg" alt="To-Do App Logo" width="200" height="200" border-radius="5px" /> 
+<img src="/public/svg/reshot-icon-to-do-list-and-calendar.svg" alt="To-Do App Logo" width="200" height="200" /> 
 
 ## Table of Contents  
 
