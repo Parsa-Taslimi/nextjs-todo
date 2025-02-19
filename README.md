@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# To-Do App  
 
-## Getting Started
+![To-Do App Logo](logo.png)  
 
-First, run the development server:
+## Table of Contents  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)  
+- [Features](#features)  
+- [Technologies Used](#technologies-used)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Screenshots](#screenshots)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The To-Do App is a simple yet powerful task management application that helps users organize their daily tasks, set priorities, and track progress. With a clean and intuitive interface, users can easily create, update, and delete tasks to manage their schedules efficiently.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features  
 
-## Learn More
+- **Add Tasks**: Create new tasks easily from the main interface.  
+- **Edit Tasks**: Modify existing tasks to update details or change priorities.  
+- **Delete Tasks**: Remove tasks that are no longer needed.  
+- **Mark as Complete**: Check off tasks when they are completed, providing a visual representation of productivity. 
+- **Responsive Design**: Fully functional on both desktop and mobile devices.  
 
-To learn more about Next.js, take a look at the following resources:
+## Installation  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Follow these steps to set up the project locally:  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:  
+    ```bash  
+    git clone [https://github.com/Parsa-Taslimi/nextjs-todo]  
+    ```  
 
-## Deploy on Vercel
+2. Navigate to the project directory:  
+    ```bash  
+    cd nextjs-todo  
+    ```  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Install the dependencies:  
+    ```bash  
+    npm install  
+    ```  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Start the development server:  
+    ```bash  
+    npm run dev  
+    ```  
+
+5. Open your browser and visit `http://localhost:3000`.  
+
+## Screenshots  
+
+![Task List Screenshot](screenshot1.png) <!-- Replace with your actual screenshot image paths -->  
+![Add Task Screenshot](screenshot2.png)  
+
+## Contributing  
+
+Contributions are welcome! If you have suggestions for improvements or would like to contribute, please follow these steps:  
+
+1. Fork the repository.  
+2. Create a new branch (`git checkout -b feature/YourFeature`).  
+3. Commit your changes (`git commit -m 'Add some feature'`).  
+4. Push to the branch (`git push origin feature/YourFeature`).  
+5. Open a Pull Request.  
+
+## License  
+
+This project is licensed under the MIT License   
+
+## Contact  
+
+If you have any questions or suggestions, feel free to reach out:  
+
+- Parsa Taslimi - [par3aw.dev@gmail.com](mailto:par3aw.dev@gmail.com)  
+- GitHub: [Parsa-Taslimi](https://github.com/Parsa-Taslimi)  
+
+---  
+
+Thank you for checking out the To-Do App! Happy productivity!
